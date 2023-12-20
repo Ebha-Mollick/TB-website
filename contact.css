@@ -34,18 +34,6 @@
     font-weight: 700;
 }
 
-.Text-Content{
-    font-family: "Product Sans Medium"; 
-    font-size: 16px;
-    font-weight: 400;
-    width: fit-content;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-left: 242px;
-    
-   
-
-}
 #Address{
     font-family: "Product Sans Medium"; 
     font-size: 17px;
@@ -77,13 +65,7 @@
     
 }
 
-Content {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
+
 
 .box {
     flex: 1;
@@ -93,16 +75,7 @@ Content {
     width: 100vw;
     
 }
-.content-box {
-    flex: 1;
-    background-color: #4FA7FF;
-    margin: 10px;
-    text-align: center;
-    justify-content: center;
-    width: 500px;
-    display: flex;
-    
-}
+
 .boxn {
     padding: 20px;
     border: 2px solid black;
