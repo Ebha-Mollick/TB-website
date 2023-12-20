@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    overflow-x: none;
+}
+.circle1{
+background: blue;
+border-radius: 50%;
+margin-left: 825px;
+width: 25px;
+height:25px;
+}
+.circle2{
+    background: rgb(27, 104, 191);
+    border-radius: 50%;
+    margin-left: 805px;
+    margin-top: -3px;
+    width:20px;
+    height:20px;
+    }
+.circle3{
+        background: lightblue;
+        border-radius: 50%;
+        margin-left: 835px;
+        margin-top: -5px;
+        width: 15px;
+        height:15px;
+        }
+ .circle4{
+    background: rgb(27, 104, 191);
+    border-radius: 50%;
+    margin-left: 650px;
+    margin-top: -45px;
+    width:15px;
+    height:15px;
+            }
+.circle5{
+    background: lightblue;
+    border-radius: 50%;
+    margin-left: 660px;
+    margin-top: 5px;
+    width:20px;
+    height:20px;
+     }
+.circle h1{
+   display: flex;
+   color: white;
+   margin-top: -20px;
+   justify-content: center; 
+   text-align: center;
+}
+.main{
+ display:inline-block;
+ justify-content: center; 
+    color: white;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.container{
+    height: 300px;
+    background-color: rgba(95, 95, 95, 0.4);
+    text-align: left;
+    width: 300px;
+    border-radius: 40px;
+    display:block;
+}
+.left1 img{
+    height:70px;
+}
+.left2 img{
+    height:50px;
+    margin-left:8px;
+    margin-top: 45px;
+}
+.left3{
+    display: flex;
+    padding-top: 20px;
+}
+.left3 img{
+    height:50px;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.right{
+    background: rgb(27, 104, 191);
+    border-radius: 50%;
+    margin-left: 240px;
+    margin-top: -45px;
+    width:200px;
+    height:200px;
+   margin-top:-290px ;
+   margin-left: 70px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .right:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    color: blue;
+    font-size: 30px;
+    font-weight: 200px;
+    text-align: center;
+  }
+.right img{
+    height: 185px;
+  margin-left:8px ;
+  margin-top: 8px;
+    
+}
+.text{
+    margin-left: 40px;
+}
+.text h4{
+   text-align: center;
+}
+
