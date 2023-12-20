@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(../fonts/Product\ Sans\ Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Product Sans', sans-serif;
+    letter-spacing: 0.1rem;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: relative;
+    height: 95vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/background_image.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ########### navbar ############ */
+
+nav{
+    /* border-bottom: 1px solid white; */
+    position:fixed;
+    /* margin-left: 14rem; */
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+nav .logo{
+    /* display: inline-block; */
+    float: left;
+    /* justify-content: left; */
+    margin-left: 10rem;
+
+}
+nav .nav-items{
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+    gap: 9rem;
+    font-size: 2rem;
+    margin-left: 22rem;
+}
+nav .nav-items::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+nav .nav-item{
+    gap: 3rem;
+}
+
+
+
+/* ########### home page content ############ */
+
+.header-content{
+    /* border: 2px solid white; */
+    /* padding:10rem 0; */
+    /* background-color: pink; */
+    height: 500px;
+    margin: 0rem 12rem;
+}
+.header-content .title{
+    float: left;
+    color: white;
+    /* border: 2px red solid; */
+    width: 55%;
+    height: 32%;
+    padding-top: 10rem;
+    font-size: 3.5rem;
+    margin-top: 19rem;
+}
+.header-content .img-box{
+    color: pink;
+    float: right;
+    /* border: 2px solid green; */
+    margin-top: 18rem;
+    width: 45%;
+    height: 100%;
+}
+.img-box::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-content .title::after, .header-content::after .img-box::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.header-content .text{
+    color: white;
+    /* border: 2px solid cornflowerblue; */
+    /* margin-top: 17rem; */
+    width: 55%;
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+.header-content .social{
+    color: white;
+    /* border: 2px solid cornflowerblue; */
+    margin-top:18rem;
+    width: 55%;
+}
+.header-content .social i{
+    margin-right: 1.2rem;
+    
+}
+
+
+/* ############## section about ############### */
+section{
+    /* background-color: black; */
+    height: 95vh;
+}
+
+
+
+

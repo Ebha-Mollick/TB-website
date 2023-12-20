@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Product Sans', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+/* ########## heading ############## */
+
+#box{
+    background:url(../images/background_image.png );
+    height: 130vh;
+}
+
+#box .heading{
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-top:2rem ;
+
+}
+
+/* .i-1, .i-2 , .h-1{
+    border: 2px solid pink;
+} */
+
+.h-1{
+    padding-top:2.5rem;
+    /* padding-bottom: 0rem; */
+}
+.i-2{
+    height:55%;
+}
+.i-1{
+    height:45%;
+    /* padding-top: 110px; */
+    margin-top: 35px;
+}
+
+
+/* ################# showcase ############ */
+.row-1{
+    margin-top: 7rem;
+    /* border: 2px solid red; */
+    color: white;
+    height: 300px;
+}
+.row-1 .img-1{
+    /* border: 2px solid pink; */
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 16rem;
+}
+.row-1 .img-2{
+    /* border: 2px solid pink; */
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 12rem;
+}
+.row-1 .img-3{
+    /* border: 2px solid pink; */
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 12rem;
+}
+
+.row-2{
+    margin-top: 11rem;
+    /* margin-bottom: 10rem; */
+    /* border: 2px solid green; */
+    color: white;
+    height: 300px;
+}
+.row-2 .img-4{
+    /* border: 2px solid cyan; */
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 17rem;
+}
+.row-2 .img-5{
+    /* border: 2px solid cyan; */
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 12rem;
+}
+.row-2 .img-6{
+    /* border: 2px solid cyan; */
+    float: left;
+    height: 100%;
+    width: 20%;
+    margin-left: 12rem;
+}
+.row-1 .img-1 img,
+.row-1 .img-2 img,
+.row-1 .img-3 img,
+.row-2 .img-4 img,
+.row-2 .img-5 img,
+.row-2 .img-6 img
+{
+    height: 8rem;
+    width: 8rem;
+    margin: 5rem 10rem auto 10rem;
+}
+
+.row-1 .img-1,
+.row-1 .img-2,
+.row-1 .img-3,
+.row-2 .img-4,
+.row-2 .img-5,
+.row-2 .img-6{
+    background: linear-gradient(179.97deg, #000000 0.03%, #141C21 112.46%) ;
+    box-shadow: 0px 8px 20px #000;
+    border-radius: 2.8rem;
+}
+.row-1 a,
+.row-2 a{
+    color: rgba(25, 159, 255, 1);
+    font-size: 2.8rem;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+}
+
+#box .row-1 .q, #box .row-2 .q
+{
+    display: flex;
+    justify-content: center;
+    padding-top:5rem ;
+}
+
+
+
+.row-1 .text-1{
+    /* border: 2px solid purple; */
+    float: right;
+    height: 100%;
+    margin-right: 22rem;
+    width: 40%;
+}
+.row-1 .text-1 .title-1{
+    /* border: 2px solid coral; */
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+.row-1 .text-1 .sl-1{
+    /* border: 2px solid coral; */
+    display: inline-block;
+    margin-left: 60%;
+
+
+}
+.row-1 .text-1 .date-1{
+    /* border: 2px solid coral; */
+    display: inline;
+    font-size: 18px;
+    margin-left: 1rem;
+}
+.row-1 .text-1 .detail-1{
+    /* border: 2px solid coral; */
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############ utility classes ############ */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin:0 auto;
+}
+.lg-heading{
+    font-size: 5rem;
+}
+.md-heading{
+    font-size: 2.2rem;
+}
