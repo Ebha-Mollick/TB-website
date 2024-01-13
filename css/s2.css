@@ -98,7 +98,7 @@ input[type="checkbox"]{
   display:inline-block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .row .text-box{
   /* border: 3px solid green; */
@@ -182,7 +182,77 @@ input[type="checkbox"]{
   nav ul li a:hover{
     background-color: rgba(255, 255, 255,0.2)
   }
+  .row .image-box{
+    /* border: 3px solid blue; */
+    float: right;
+    width:45%;
+    height: 90%;
+  }
+  .row .image-box img{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+
+
 }
+@media (max-width:652px){
+
+  .row .image-box{
+    /* border: 3px solid blue; */
+    float: right;
+    width:45%;
+    height: 60%;
+    margin-top: 13rem;
+    
+  }
+  .row .image-box img{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+}
+@media (max-width:445px){
+  .row .text-box{
+    /* border: 3px solid green; */
+    float: left;
+    width: 100%;
+    height: 100%;
+    /* padding: 2rem; */
+  }
+  .row .text-box .title{
+    /* border: 2px solid coral; */
+    color: white;
+    padding: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .row .image-box{
+    /* border: 3px solid blue; */
+    display: none;
+    float: right;
+    width:45%;
+    height: 60%;
+    margin-top: 13rem;
+    
+  }
+  .row .image-box img{
+    /* display:inline-block; */
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+  .row .text-box .social{
+    /* border: 4px solid purple; */
+    padding: 2rem;
+    margin-top:35%;
+   
+  }
+}
+
 
 /* -----------------------utility class------------------ */
 .container{
